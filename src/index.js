@@ -58,13 +58,11 @@ const projectId = process.env.REACT_APP_PROJECT_ID;
   );
 
 root.render(
-    <React.StrictMode>
       <WagmiConfig config={wagmiConfig}>
         <RainbowKitProvider chains={chains}>
           <App />
         </RainbowKitProvider>
       </WagmiConfig>
-    </React.StrictMode>
   );
   
   // If you want to start measuring performance in your app, pass a function
