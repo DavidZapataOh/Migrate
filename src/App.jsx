@@ -11,7 +11,7 @@ import { useConnectModal } from '@rainbow-me/rainbowkit';
 
 import { ConnectButton } from '@rainbow-me/rainbowkit';
 
-function App() {
+const App = () => {
 
   const { openConnectModal } = useConnectModal();
 

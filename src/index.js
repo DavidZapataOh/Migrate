@@ -63,7 +63,4 @@ const projectId = "e3770fd59efd5da0b6467299f27598a9";
       </React.StrictMode>
   );
   
-  // If you want to start measuring performance in your app, pass a function
-  // to log results (for example: reportWebVitals(console.log))
-  // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-  reportWebVitals();
+
