@@ -1,4 +1,3 @@
-"use client";
 import Web3 from 'web3';
 import { Navbar, Nav, Button, Form, FormControl } from 'react-bootstrap';
 import { useEffect, useState } from 'react';
@@ -208,20 +207,9 @@ function App() {
       <Navbar className="navbar-custom justify-content-between">
         <Navbar.Brand href="#home" className="text-light ml-3">MIGRACIÓN</Navbar.Brand>
         <Nav className="mr-auto"></Nav>
-        <Form inline className="ml-auto">
-          {account && (
-              <span className="text-light button-container"></span>
-          )}
-          {account ? (
-            <div className="button-container">
-              <FormControl type="text" value={account} readOnly className="mr-sm-2 account" />
-            </div>
-          ) : (
-            <div className="button-container">
+        <div className="button-container">
               <ConnectButton />
             </div>
-          )}
-        </Form>
       </Navbar>
       {isConnected && (
         <div className="parent-container">
